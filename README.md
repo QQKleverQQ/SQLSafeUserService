@@ -1,5 +1,3 @@
-# (markdown text)
-README = r"""
 # SQLSafe User Service
 
 
