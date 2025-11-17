@@ -1,0 +1,10 @@
+COV = r
+[run]
+branch = True
+source =
+app
+
+
+[report]
+show_missing = True
+skip_covered = False

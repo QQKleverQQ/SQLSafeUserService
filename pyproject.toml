@@ -1,0 +1,19 @@
+PYPROJECT = r
+[project]
+name = "sqlsafe_user_service"
+version = "0.1.0"
+description = "Example project: safe DB access, hashing, tests"
+requires-python = "^3.10"
+
+
+[project.dependencies]
+SQLAlchemy = "^2.0"
+bcrypt = "^4.0"
+pytest = {version = "^7.0", optional = false}
+pytest-cov = {version = "^4.0", optional = false}
+pytest-mock = "^3.10"
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
